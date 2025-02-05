@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100%;
+    width: 100%;
+
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 8%);
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    width: 25rem;
+    padding: 2rem;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+}
+
+img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+h2 {
+    color: white;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    color: hsl(75, 94%, 57%);
+    font-size: 12px;
+}
+
+h5 {
+    color: white;
+    font-weight: 400;
+    opacity: 0.75;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+button {
+    width: 100%;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:active {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+@media (max-width: 425px) {
+    .wrapper {
+        width: 84.5%;
+    }
+
+    img {
+        width: 73.5px;
+    }
+
+}
